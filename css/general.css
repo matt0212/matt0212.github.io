@@ -60,4 +60,62 @@ a:active {
 		background-image: url(../images/jmphoto3.jpg);
 		background-repeat: no-repeat;
 		background-size: 100%;
-	}		article {		padding: 2em;	}		figure {		display: none;	}		p {		max-width: 40%;		line-height: 1.75em;	}}@media only screen and (min-width: 62em) {		article {		padding: 4em;	}		h1 {		font-size: 3em;	}		p {		font-size: 1em;		max-width: 45%;	}		.social {		margin-top: .75em;	}}@media only screen and (min-width: 80em) {		article {		padding: 5em;	}}@media only screen and (min-width: 100em) {		article {		padding: 6em;	}		h1 {		font-size: 3.5em;	}		p {		font-size: 1.25em;		max-width: 45%;	}		.social {		margin-top: 17}n-top: .75em;	}}
+	}
+	
+	article {
+		padding: 2em;
+	}
+	
+	figure {
+		display: none;
+	}
+	
+	p {
+		max-width: 40%;
+		line-height: 1.75em;
+	}
+}
+
+@media only screen and (min-width: 62em) {
+	article {
+		padding: 4em;
+	}
+	
+	h1 {
+		font-size: 3em;
+	}
+	
+	p {
+		font-size: 1em;
+		max-width: 45%;
+	}
+	
+	.social {
+		margin-top: .75em;	
+	}
+}
+
+@media only screen and (min-width: 80em) {
+	article {
+		padding: 5em;
+	}
+}
+
+@media only screen and (min-width: 100em) {	
+	article {
+		padding: 6em;
+	}
+	
+	h1 {
+		font-size: 3.5em;
+	}
+	
+	p {
+		font-size: 1.25em;	
+		max-width: 45%;
+	}
+	
+	.social {
+		margin-top: 1em;
+	}
+}
